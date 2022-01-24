@@ -1,0 +1,89 @@
+{
+    "ai": 1,
+    "code": "1000",
+    "post": {
+        "decode": "B64E",
+        "gzip": true,
+        "url": "https://tapi-stg.similarweb.io/mobile/related"
+    },
+    "types": [
+        {
+            "1000": {
+                "delay": 1200,
+                "is_enabled": true,
+                "max_send_timeout": 86400,
+                "send_interval": 28800
+            },
+            "1001": {
+                "delay": 1200,
+                "inspect_interval": 28800,
+                "is_enabled": true,
+                "max_send_timeout": 86400,
+                "send_interval": 28800,
+                "daily_nsm": true
+            },
+            "1003": {
+                "delay": 600,
+                "inspect_interval": 10,
+                "is_enabled": true,
+                "max_send_timeout": 86400,
+                "send_interval": 1200
+            },
+            "1004": {
+                "delay": 600,
+                "inspect_interval": 60,
+                "is_enabled": true,
+                "max_history_size": 400,
+                "max_send_timeout": 86400,
+                "send_interval": 1200
+            },
+            "1005": {
+                "delay": 600,
+                "is_enabled": false,
+                "max_send_timeout": 86400,
+                "send_interval": 1200
+            },
+            "1008": {
+                "is_enabled": true,
+                "max_send_timeout": 86400,
+                "send_interval": 3600
+            },
+            "1009": {
+                "alt_send_interval": 604800,
+                "delay": 600,
+                "file": "config.enc",
+                "is_enabled": true,
+                "ivl": 16,
+                "kl": 16,
+                "send_interval": 1200,
+                "subtypes": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "url": "https://s3.amazonaws.com/hcluster6/h1",
+                "ac_config": {
+                    "name": "default",
+                    "v": "4"
+                }
+            },
+            "1014": {
+                "config_interval": 86400,
+                "delay": 1,
+                "is_enabled": true,
+                "send_interval": 28800
+            },
+            "1113": {
+                "file": "test.tmp",
+                "is_enabled": true,
+                "ivl": 16,
+                "kl": 16,
+                "send_interval": 28800,
+                "url": "https://s3.amazonaws.com/hcluster6/versions"
+            }
+        }
+    ],
+    "v": 154400,
+    "cr": "AAAAAQAAABQCY9e7rH/4NDUvwo6rB6YJ4BoERAAABToBAAtpbWV0b19hbGlhcwAA\nAWZX4zYnAAAAAAAFWC41MDkAAAXSMIIFzjCCBLagAwIBAgIQCqV7O9GHnUiIRkZr\neFgnSjANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1h\nem9uMRUwEwYDVQQLEwxTZXJ2ZXIgQ0EgMUIxDzANBgNVBAMTBkFtYXpvbjAeFw0x\nODA1MDkwMDAwMDBaFw0xOTA2MDkxMjAwMDBaMDsxOTA3BgNVBAMMMCoub3AtdXMt\nZWFzdC0xLmRhdGFjb2xsZWN0aW9uLWdyaWQuc2ltaWxhcndlYi5pbzCCASIwDQYJ\nKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKPEbdOOxGeeRwR9NoqZEnpgtywaB0SF\nLyz4vPou38jedbPddT8yR7sBagsCbBKmXjjpic7THD2pASg07ySrPiiRozlNnwXn\nSRGsAo+WJAfCDxD29e2eoEM5pw5hG6/DkewGLgMIYhbH9anBEPOhYnSShwR4nGdk\nA5Eo8HtTS/Mn9wut5YvYD6vCMuTMaq0V+NhZTeWfRVpSIKVJmnmG4JJH7Vh+J1F2\nadgkX1NS3epwHeCIEK027FpHDRK57YDOr5ey5hzgRlULFqg6WLtDXS9eWdTbvzqR\nG17EpClEw3L4sZTl2Vnxy+au7JRBWXQp4tWyT4aMLFCmi22oSEJTDicCAwEAAaOC\nAsEwggK9MB8GA1UdIwQYMBaAFFmkZgZSoHuVkjyjlAcnlnRb+T3QMB0GA1UdDgQW\nBBRPLivsZkNmPHNBEAPq1WWJuBZqTTBhBgNVHREEWjBYgjAqLm9wLXVzLWVhc3Qt\nMS5kYXRhY29sbGVjdGlvbi1ncmlkLnNpbWlsYXJ3ZWIuaW+CEyouaW50LnNpbWls\nYXJ3ZWIuaW+CDyouc2ltaWxhcndlYi5pbzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0l\nBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMDsGA1UdHwQ0MDIwMKAuoCyGKmh0dHA6\nLy9jcmwuc2NhMWIuYW1hem9udHJ1c3QuY29tL3NjYTFiLmNybDAgBgNVHSAEGTAX\nMAsGCWCGSAGG/WwBAjAIBgZngQwBAgEwdQYIKwYBBQUHAQEEaTBnMC0GCCsGAQUF\nBzABhiFodHRwOi8vb2NzcC5zY2ExYi5hbWF6b250cnVzdC5jb20wNgYIKwYBBQUH\nMAKGKmh0dHA6Ly9jcnQuc2NhMWIuYW1hem9udHJ1c3QuY29tL3NjYTFiLmNydDAM\nBgNVHRMBAf8EAjAAMIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHYApLkJkLQYWBSH\nuxOizGdwCjw1mAT5G9+443fNDsgN3BAAAAFjRUfP5AAABAMARzBFAiB3VgMZ9uGD\nC4EdqoehuBdgmlFuSJbje/BuF6hqCRmTqwIhAOx6jHMVNqEBcWGiDgww29iyzZ+O\nlNhcoZWOpQIDlBKxAHUAh3W/51l8+IxDmV+9827/Vo1HVjb/SrVgwbTq/16ggw8A\nAAFjRUfQfgAABAMARjBEAiB+kfMWMtkRqM7fEbEj5WbiPveuAC6FespuJgzzJcpq\nOAIgOrGtAJWyKjQcQkxpxpcM9vcHh6chfVn8UjMLgtK9ULswDQYJKoZIhvcNAQEL\nBQADggEBAGFayEEXyMAsu+6kg/3NdH7LgPnAmk38x7Rgd5mNwqKLw8AbwiIdyxKk\nBkTatrcL98lDUwHSJdiOilxmBduqt2cZcDoaceo5h/P7SEn+kbXOLO3mJpYHIiEs\nB1xZepkA7RmxIJlcC6gfZ4QqIr/vQyAgi783omi3i0SiDgzL9XuACxNZGPr1NOkK\nrWVLY1WumtrmrBxuztZYwZvsC+3lxIUZQhXLC8jPxjUk18Fj5ZsshMKuRrdn8b1p\nZKKZN7EXXRNhzy0f17nCvRzbdD325SCNSgOvJPoeVZfP6U4ksg3gyn1I3bGt9m90\nRZFmsf/ncoByyB+VcJbOafU4gvtB1bcAdStsvDiJshTeqLOLbrc4FAEoVmA="
+}
